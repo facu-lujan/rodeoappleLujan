@@ -10,22 +10,7 @@ body::before {
     height: 60px;
   }
  
-  .animacion:hover{
-     animation: nosotros 1s;
-
-  }
-
-  @keyframes nosotros{
-    0%{
-      scale: 1;
-    }
-    25%{
-      scale: 2;
-    }
-    50%{
-      scale: 3;
-    }
-  }
+  
   
  
   @media (min-width: 768px) {
