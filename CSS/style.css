@@ -1,20 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
+@import c:\Users\Facu\Desktop\rodeoApple\Style\_generales.scss body;
+::before {
+  display: block;
+  content: '';
+  height: 60px;
 }
 
-
-body::before {
-    display: block;
-    content: '';
-    height: 60px;
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
   }
- 
-  
-  
- 
-  @media (min-width: 768px) {
-    .news-input {
-      width: 50%;
-    }
-  }
+}
+/*# sourceMappingURL=style.css.map */
