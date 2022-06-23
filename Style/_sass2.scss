@@ -1,0 +1,29 @@
+
+
+$mostrar:true;
+.lead_nosotros{
+    @if $mostrar{
+        border: 2px dashed black;
+    }
+}
+
+$redes: ( 
+       twitter: #55aCee, 
+       facebook:#3a5795,
+       instagram:#C25E30,
+);
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+
+@mixin sizes ($height, $width){
+    height: $height;
+    width: $width;
+}
+
+.my_mixin{
+    @include sizes (500px,50px);
+    background-color: lightcoral;
+}

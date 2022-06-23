@@ -1,4 +1,6 @@
 @import c:\Users\Facu\Desktop\rodeoApple\Style\_generales.scss body;
+@import _sass2.scss
+
 ::before {
   display: block;
   content: '';
