@@ -1,6 +1,9 @@
-@import c:\Users\Facu\Desktop\rodeoApple\Style\_generales.scss body
+* {
+  margin: 0;
+  padding: 0;
+}
 
-::before {
+body::before {
   display: block;
   content: '';
   height: 60px;
@@ -10,5 +13,13 @@
   .news-input {
     width: 50%;
   }
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,4 @@
-@import "_generales.scss"
-@import "_sass2.scss"
+@import "_generales.scss";
 
 
 body::before{
@@ -9,10 +8,15 @@ body::before{
   }
  
   
-  
- 
   @media (min-width: 768px) {
     .news-input {
       width: 50%;
     }
   }
+
+  .cards{
+    display: flex;
+    width: 100vw;
+    margin: auto;
+  }
+ 
